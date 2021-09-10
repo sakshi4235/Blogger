@@ -33,6 +33,13 @@
     .image{
         height:200px;
     }
+    .contact-content1 p{
+        padding-left:0px;
+        text-align: justify;
+    }
+    .max-width-1{
+        max-width: 80vw;
+    }
     
 }
 @media screen and (max-width:400px){
@@ -46,5 +53,11 @@
         width:30vw;
         /* margin-left: 10vw; */
         text-align: center;
+    }
+    .contact-content1 p{
+        font-size: 18px;
+    }
+    .max-width-1{
+        max-width: 90vw;
     }
 }
